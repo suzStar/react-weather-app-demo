@@ -1,4 +1,4 @@
-import "./Search.css";
+import "./Forecast.css";
 
 export default function Search() {
   return (
@@ -7,7 +7,7 @@ export default function Search() {
         <div className="input-group">
           <input
             type="search"
-            class="form-control"
+            className="form-control"
             placeholder="Search here"
             aria-label="Search"
             aria-describedby="search-addon"

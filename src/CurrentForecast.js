@@ -1,4 +1,4 @@
-import "./CurrentForecast.css";
+import "./Forecast.css";
 
 export default function CurrentForecast() {
   return (

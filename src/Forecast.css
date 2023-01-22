@@ -1,3 +1,7 @@
+.Search form {
+    padding: 20px 0;
+}
+
 .CurrentForecast {
     margin: auto 0px 20px;
 }
@@ -60,4 +64,43 @@ h1 {
 
 .CurrentForecast li:first-letter {
     text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    color: #202124;
+}
+
+.weather-app {
+    padding: 20px;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+}
+
+.DailyWeather {
+    text-align: center;
+    margin: 40px auto 20px;
+}
+
+.DailyWeather .weekDays {
+    padding-top: 7px;
+}
+
+.DailyWeather .img {
+    height: 48px;
+}
+
+.DailyWeather .temperature-max {
+    color: #202124;
+    padding-right: 5px;
+}
+
+.DailyWeather .temperature-min {
+    color: #70757a;
 }

@@ -1,4 +1,4 @@
-import "./WeeklyForecast.css";
+import "./Forecast.css";
 import DailyWeather from "./DailyWeather";
 
 export default function WeekForecast(props) {
