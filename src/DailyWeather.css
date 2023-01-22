@@ -1,0 +1,21 @@
+.DailyWeather {
+    text-align: center;
+    margin: 40px auto 20px;
+}
+
+.DailyWeather .weekDays {
+    padding-top: 7px;
+}
+
+.DailyWeather .img {
+    height: 48px;
+}
+
+.DailyWeather .temperature-max {
+    color: #202124;
+    padding-right: 5px;
+}
+
+.DailyWeather .temperature-min {
+    color: #70757a;
+}
