@@ -27,6 +27,16 @@ h1 {
     color: #878787;
 }
 
+.CurrentForecast a {
+    text-decoration: none;
+    color: #878787;
+}
+
+.CurrentForecast a:hover {
+    text-decoration: underline;
+    color: #0275d8;
+}
+
 .CurrentForecast .active {
     font-weight: bold;
     color: #202124;

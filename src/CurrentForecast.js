@@ -1,4 +1,4 @@
-import "./App.css";
+import "./CurrentForecast.css";
 
 export default function CurrentForecast() {
   return (
@@ -10,18 +10,18 @@ export default function CurrentForecast() {
               src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
               alt="Sunny"
               id="icon"
-              class="float-left"
+              className="float-left"
             />
             <strong className="temperature">8</strong>
             <span className="units">
-              <botton href="#">°F </botton> |
-              <botton href="#" className="active">
+              <a href="/">°F </a> |
+              <a href="/" className="active">
                 °C
-              </botton>
+              </a>
             </span>
           </div>
         </div>
-        <div class="col-6">
+        <div className="col-6">
           <ul>
             <li>
               <h1>London</h1>

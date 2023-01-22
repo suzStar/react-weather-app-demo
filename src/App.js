@@ -6,11 +6,15 @@ import WeeklyForecast from "./WeeklyForecast";
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
       <Search />
       <CurrentForecast />
       <WeeklyForecast />
-      <footer>Open-source code, by Suanne Sharman</footer>
+      <footer>
+        <a href="https://github.com/suzStar/react-weather-app-demo">
+          Open-source code
+        </a>
+        , by Suanne Sharman
+      </footer>
     </div>
   );
 }
